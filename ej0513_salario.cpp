@@ -43,19 +43,8 @@ int main ()
     
     // salidas
     cout << "Hola, " << nombre << " su datos de salario son: \n";
-    cout << "\tSalario neto:\t" << salario_neto;
-    cout << "\n\tImpuesto:\t" << impuesto;
-    cout << "\n\tSalario Liquido:\t" << salario_neto-impuesto << "\n";
-     
-    
-    
-    //cout << salario_neto << "\n";
-
-
-
-
-
-
-
+    cout << "\tSalario neto:\t\t" << salario_neto;
+    cout << "\n\tImpuesto:\t\t" << impuesto;
+    cout << "\n\tSalario Liquido:\t" << salario_neto-impuesto << "\n"; 
     return 0;
 }
